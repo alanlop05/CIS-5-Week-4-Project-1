@@ -85,3 +85,22 @@ On Windows (Visual Studio), open `main.cpp` and use **Local Windows Debugger**.
 4. Record a short demo that shows your tool, your code, and a real run where you type the four answers and the card prints.
 5. Paste the video link in the **Demo video** section above.
 6. Submit your fork URL on Canvas.
+
+## How to compile and run
+''' bash
+g++ main.cpp -o card
+./ card
+
+## Sample session
+'''text
+First Name? Alan
+Age? 29 
+Credits this term? 15
+GPA? 3.5
+
+=== Student Card ===
+Name: Alan
+Age: 29
+Credits: 15
+GPA: 3.5
+Expected Graduation: 2030
